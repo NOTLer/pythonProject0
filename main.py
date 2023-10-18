@@ -161,11 +161,11 @@ class Child(tk.Toplevel):  # если есть 1 большое окно и ун
         # дочернее окно
         label_name = tk.Label(self, text='ФИО:')
         label_name.place(x=50, y=50)
-        label_select = tk.Label(self, text='Телефон')
+        label_select = tk.Label(self, text='Телефон:')
         label_select.place(x=50, y=80)
-        label_sum = tk.Label(self, text='E-mail')
+        label_sum = tk.Label(self, text='E-mail:')
         label_sum.place(x=50, y=110)
-        label_wages = tk.Label(self, text='Wages')
+        label_wages = tk.Label(self, text='Wages:')
         label_wages.place(x=50, y=140)
 
         # добавляем строку ввода для наименования
